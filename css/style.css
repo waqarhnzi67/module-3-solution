@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container-fluid{
+   border: 3px solid black;
+}
+
+.navbar-brand {
+   font-weight: bolder;
+}
+
+.main-heading {
+   text-align: center;
+}
+
+h3 {
+   text-align: center;
+   font-weight: 600;
+}
+
+.container-main{
+   margin-top: 30px;
+   background-color: #999999;
+}
+.nav-item a {
+   color: black;
+}
+
+.navbar-nav li {
+   text-align: center;
+}
+
+@media(max-width: 992px) {
+   .navbar-nav li {
+      border-bottom: 2px solid black;
+   }
+}
